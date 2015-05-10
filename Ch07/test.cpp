@@ -2,16 +2,14 @@
 
 using namespace std;
 
-typedef double Money;
-class Account {
+class Test{
     public:
-        Money balance() {return bal;}
+    Test(string s="hello"):s(s){}
     private:
-        typedef double Money;
-        Money bal;
+    string s;
 };
 
 int main(){
-    Account e;
+    Test t;
     return 0;
 }

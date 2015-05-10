@@ -4,11 +4,11 @@
 #include <string>
 
 class Person{
-    public:
+public:
     Person() = default;
     Person(std::string name, std::string address):
         name(name), address(address){}
-    private:
+private:
     std::string name;
     std::string address;
 };
